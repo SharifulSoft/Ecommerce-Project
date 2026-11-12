@@ -1,0 +1,55 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development vite",
+    "dev:clear": "NODE_ENV=development vite --clearScreen",
+    "build": "NODE_ENV=production vite build",
+    "build:analyze": "NODE_ENV=production vite build --mode analyze",
+    "preview": "NODE_ENV=production vite preview",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@radix-ui/react-progress": "^1.1.8",
+    "@reduxjs/toolkit": "^2.9.1",
+    "axios": "^1.12.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.6.0",
+    "html2pdf.js": "^0.12.1",
+    "lucide-react": "^0.546.0",
+    "react": "^19.1.1",
+    "react-datetime-picker": "^7.0.1",
+    "react-dom": "^19.1.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.9.4",
+    "react-toastify": "^11.0.5",
+    "tailwind-merge": "^3.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.1.1",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.38.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "postcss": "^8.5.6",
+    "prettier": "^3.6.2",
+    "tailwindcss": "^3.4.18",
+    "terser": "^5.31.0",
+    "vite": "^5.0.0"
+  }
+}
